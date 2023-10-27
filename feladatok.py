@@ -116,9 +116,6 @@ def fel11():
     szam: int = int(input("Adjon egy számot(írjon 0-át ,ha le akarja állítani)!"))
     db: int = 1
     osszeg: int = 0
-    while szam < 0:
-        print("Nem lehet kissebb mint 0!")
-        szam: int = int(input("Adjon egy számot(írjon 0-át ,ha le akarja állítani)!"))
     while szam != 0:
         while szam < 0:
             print("Nem lehet kissebb mint 0!")
@@ -130,3 +127,21 @@ def fel11():
     print("Nyert  egy Gucci táskát!")
 
 
+def fel12():
+    print("Egy olimpián a részt vevők elért eredményeit kaphatjuk meg tört alakban (legyenek pl. futók, idő másodpercben;a számok is bekérés eredményei). ")
+    letszam: int = int(input("Adja meg alétszámot!"))
+    i = 1
+    beert = 0
+    osszeg = 0
+    while i < letszam:
+        ido: int = int(input("Adja meg a tag idejét!(0 ha lesérült ,de jelen volt)"))
+        if ido < 0:
+            print("HIBA: érvénytelen adat!")
+            return
+        if ido == 0:
+            osszeg += ido
+        else:
+            osszeg += ido
+            beert += 1
+        i += 1
+    print(f"")

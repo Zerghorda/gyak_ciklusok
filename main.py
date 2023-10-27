@@ -1,0 +1,12 @@
+import feladatok
+#feladatok.fel1()
+#feladatok.fel2()
+#feladatok.fel3()
+#feladatok.fel4()
+#feladatok.fel5()
+#feladatok.fel6()
+#feladatok.fel7()
+#feladatok.fel8()
+#feladatok.fel9()
+#feladatok.fel10()
+feladatok.fel11()
